@@ -1,0 +1,18 @@
+2015-08-11 15:07:35 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'test_bookmarks.user' doesn't exist
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp3/bookmarker/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'user', Array, Object(Cake\Database\Schema\Table))
+#1 /Applications/MAMP/htdocs/cakephp3/bookmarker/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(65): Cake\Database\Schema\Collection->describe('user', Array)
+#2 /Applications/MAMP/htdocs/cakephp3/bookmarker/vendor/cakephp/cakephp/src/ORM/Table.php(426): Cake\Database\Schema\CachedCollection->describe('user')
+#3 /Applications/MAMP/htdocs/cakephp3/bookmarker/vendor/cakephp/cakephp/src/ORM/Table.php(502): Cake\ORM\Table->schema()
+#4 /Applications/MAMP/htdocs/cakephp3/bookmarker/vendor/cakephp/bake/src/Shell/Task/TemplateTask.php(277): Cake\ORM\Table->primaryKey()
+#5 /Applications/MAMP/htdocs/cakephp3/bookmarker/vendor/cakephp/bake/src/Shell/Task/TemplateTask.php(147): Bake\Shell\Task\TemplateTask->_loadController()
+#6 [internal function]: Bake\Shell\Task\TemplateTask->main('user')
+#7 /Applications/MAMP/htdocs/cakephp3/bookmarker/vendor/cakephp/cakephp/src/Console/Shell.php(391): call_user_func_array(Array, Array)
+#8 /Applications/MAMP/htdocs/cakephp3/bookmarker/vendor/cakephp/cakephp/src/Console/Shell.php(386): Cake\Console\Shell->runCommand(Array, false)
+#9 /Applications/MAMP/htdocs/cakephp3/bookmarker/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#10 /Applications/MAMP/htdocs/cakephp3/bookmarker/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#11 /Applications/MAMP/htdocs/cakephp3/bookmarker/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#12 /Applications/MAMP/htdocs/cakephp3/bookmarker/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#13 {main}
+
+

@@ -1,0 +1,344 @@
+2015-08-10 06:49:17 Warning: Warning (2): Invalid argument supplied for foreach() in [/Applications/MAMP/htdocs/cakephp3/bookmarker/src/Template/Bookmarks/index.ctp, line 34]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 139
+include - APP/Template/Bookmarks/index.ctp, line 34
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 828
+Cake\View\View::_render() - CORE/src/View/View.php, line 788
+Cake\View\View::render() - CORE/src/View/View.php, line 465
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-08-10 11:59:03 Warning: Warning (2): Invalid argument supplied for foreach() in [/Applications/MAMP/htdocs/cakephp3/bookmarker/src/Template/Bookmarks/index.ctp, line 34]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 139
+include - APP/Template/Bookmarks/index.ctp, line 34
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 828
+Cake\View\View::_render() - CORE/src/View/View.php, line 788
+Cake\View\View::render() - CORE/src/View/View.php, line 465
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-08-10 12:01:06 Warning: Warning (2): Invalid argument supplied for foreach() in [/Applications/MAMP/htdocs/cakephp3/bookmarker/src/Template/Bookmarks/index.ctp, line 34]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 139
+include - APP/Template/Bookmarks/index.ctp, line 34
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 828
+Cake\View\View::_render() - CORE/src/View/View.php, line 788
+Cake\View\View::render() - CORE/src/View/View.php, line 465
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-08-10 12:01:09 Warning: Warning (2): Invalid argument supplied for foreach() in [/Applications/MAMP/htdocs/cakephp3/bookmarker/src/Template/Bookmarks/index.ctp, line 34]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 139
+include - APP/Template/Bookmarks/index.ctp, line 34
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 828
+Cake\View\View::_render() - CORE/src/View/View.php, line 788
+Cake\View\View::render() - CORE/src/View/View.php, line 465
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-08-10 12:02:35 Error: Fatal Error (1): Class 'App\Controller\Time' not found in [/Applications/MAMP/htdocs/cakephp3/bookmarker/src/Controller/AppController.php, line 48]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 192
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 91
+[main] - [internal], line ??
+
+
+
+2015-08-10 12:02:35 Error: [Cake\Error\FatalErrorException] Class 'App\Controller\Time' not found
+Request URL: /cakephp3/bookmarker/bookmarks
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp3/bookmarker/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(91): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'App\\Cont...', '/Applications/M...', 48)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-08-10 12:03:02 Warning: Warning (2): Invalid argument supplied for foreach() in [/Applications/MAMP/htdocs/cakephp3/bookmarker/src/Template/Bookmarks/index.ctp, line 34]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 139
+include - APP/Template/Bookmarks/index.ctp, line 34
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 828
+Cake\View\View::_render() - CORE/src/View/View.php, line 788
+Cake\View\View::render() - CORE/src/View/View.php, line 465
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-08-10 12:32:29 Error: [Cake\Routing\Exception\MissingControllerException] Controller class User could not be found.
+Exception Attributes: array (
+  'class' => 'User',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/bookmarker/user/logout
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp3/bookmarker/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-08-11 12:33:53 Error: Fatal Error (4): syntax error, unexpected '=' in [/Applications/MAMP/htdocs/cakephp3/bookmarker/src/Template/Bookmarks/edit.ctp, line 25]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 192
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 91
+[main] - [internal], line ??
+
+
+
+2015-08-11 12:33:53 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '='
+Request URL: /cakephp3/bookmarker/bookmarks/edit/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp3/bookmarker/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(91): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', '/Applications/M...', 25)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-08-11 12:33:56 Error: Fatal Error (4): syntax error, unexpected '=' in [/Applications/MAMP/htdocs/cakephp3/bookmarker/src/Template/Bookmarks/edit.ctp, line 25]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 192
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 91
+[main] - [internal], line ??
+
+
+
+2015-08-11 12:33:56 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '='
+Request URL: /cakephp3/bookmarker/bookmarks/edit/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp3/bookmarker/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(91): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', '/Applications/M...', 25)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-08-11 15:08:52 Warning: Warning (2): Invalid argument supplied for foreach() in [/Applications/MAMP/htdocs/cakephp3/bookmarker/src/Template/Users/index.ctp, line 38]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 139
+include - APP/Template/Users/index.ctp, line 38
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 828
+Cake\View\View::_render() - CORE/src/View/View.php, line 788
+Cake\View\View::render() - CORE/src/View/View.php, line 465
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-08-12 11:38:31 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::login() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /cakephp3/bookmarker/users/login
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp3/bookmarker/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 /Applications/MAMP/htdocs/cakephp3/bookmarker/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 /Applications/MAMP/htdocs/cakephp3/bookmarker/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-08-12 11:38:39 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::login() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /cakephp3/bookmarker/users/login
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp3/bookmarker/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 /Applications/MAMP/htdocs/cakephp3/bookmarker/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 /Applications/MAMP/htdocs/cakephp3/bookmarker/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-08-12 13:33:49 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "users"
+Request URL: /cakephp3/bookmarker/users/edit/id
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp3/bookmarker/vendor/cakephp/cakephp/src/ORM/Table.php(1177): Cake\ORM\Query->firstOrFail()
+#1 /Applications/MAMP/htdocs/cakephp3/bookmarker/src/Controller/UsersController.php(69): Cake\ORM\Table->get('id', Array)
+#2 [internal function]: App\Controller\UsersController->edit('id')
+#3 /Applications/MAMP/htdocs/cakephp3/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php(411): call_user_func_array(Array, Array)
+#4 /Applications/MAMP/htdocs/cakephp3/bookmarker/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 /Applications/MAMP/htdocs/cakephp3/bookmarker/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#6 /Applications/MAMP/htdocs/cakephp3/bookmarker/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2016-02-18 23:27:06 Error: [Cake\Core\Exception\MissingPluginException] Plugin Bootstrap3Theme could not be found.
+Exception Attributes: array (
+  'plugin' => 'Bootstrap3Theme',
+)
+Request URL: /cake3/bookmarker/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cake3/bookmarker/vendor/cakephp/cakephp/src/Core/App.php(127): Cake\Core\Plugin::classPath('Bootstrap3Theme')
+#1 /Applications/MAMP/htdocs/cake3/bookmarker/vendor/cakephp/cakephp/src/View/View.php(1075): Cake\Core\App::path('Template', 'Bootstrap3Theme')
+#2 /Applications/MAMP/htdocs/cake3/bookmarker/vendor/cakephp/cakephp/src/View/View.php(904): Cake\View\View->_paths(NULL)
+#3 /Applications/MAMP/htdocs/cake3/bookmarker/vendor/cakephp/cakephp/src/View/View.php(462): Cake\View\View->_getViewFileName('home')
+#4 /Applications/MAMP/htdocs/cake3/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php(582): Cake\View\View->render('home', NULL)
+#5 /Applications/MAMP/htdocs/cake3/bookmarker/src/Controller/PagesController.php(57): Cake\Controller\Controller->render('home')
+#6 [internal function]: App\Controller\PagesController->display('home')
+#7 /Applications/MAMP/htdocs/cake3/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php(411): call_user_func_array(Array, Array)
+#8 /Applications/MAMP/htdocs/cake3/bookmarker/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#9 /Applications/MAMP/htdocs/cake3/bookmarker/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#10 /Applications/MAMP/htdocs/cake3/bookmarker/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#11 {main}
+
+
+2016-02-18 23:29:27 Error: [Cake\Core\Exception\MissingPluginException] Plugin Bootstrap3Theme could not be found.
+Exception Attributes: array (
+  'plugin' => 'Bootstrap3Theme',
+)
+Request URL: /cake3/bookmarker/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cake3/bookmarker/vendor/cakephp/cakephp/src/Core/App.php(127): Cake\Core\Plugin::classPath('Bootstrap3Theme')
+#1 /Applications/MAMP/htdocs/cake3/bookmarker/vendor/cakephp/cakephp/src/View/View.php(1075): Cake\Core\App::path('Template', 'Bootstrap3Theme')
+#2 /Applications/MAMP/htdocs/cake3/bookmarker/vendor/cakephp/cakephp/src/View/View.php(904): Cake\View\View->_paths(NULL)
+#3 /Applications/MAMP/htdocs/cake3/bookmarker/vendor/cakephp/cakephp/src/View/View.php(462): Cake\View\View->_getViewFileName('home')
+#4 /Applications/MAMP/htdocs/cake3/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php(582): Cake\View\View->render('home', NULL)
+#5 /Applications/MAMP/htdocs/cake3/bookmarker/src/Controller/PagesController.php(57): Cake\Controller\Controller->render('home')
+#6 [internal function]: App\Controller\PagesController->display('home')
+#7 /Applications/MAMP/htdocs/cake3/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php(411): call_user_func_array(Array, Array)
+#8 /Applications/MAMP/htdocs/cake3/bookmarker/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#9 /Applications/MAMP/htdocs/cake3/bookmarker/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#10 /Applications/MAMP/htdocs/cake3/bookmarker/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#11 {main}
+
+
+2016-02-18 23:30:50 Error: Fatal Error (1): Call to a member function success() on boolean in [/Applications/MAMP/htdocs/cake3/bookmarker/src/Controller/UsersController.php, line 54]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 192
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 91
+[main] - [internal], line ??
+
+
+
+2016-02-18 23:30:50 Error: [Cake\Error\FatalErrorException] Call to a member function success() on boolean
+Request URL: /cake3/bookmarker/users/add
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cake3/bookmarker/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(91): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', '/Applications/M...', 54)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-02-18 23:34:31 Error: Fatal Error (1): Call to a member function success() on boolean in [/Applications/MAMP/htdocs/cake3/bookmarker/src/Controller/BookmarksController.php, line 55]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 192
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 91
+[main] - [internal], line ??
+
+
+
+2016-02-18 23:34:31 Error: [Cake\Error\FatalErrorException] Call to a member function success() on boolean
+Request URL: /cake3/bookmarker/bookmarks/add
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cake3/bookmarker/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(91): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', '/Applications/M...', 55)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-02-19 13:59:18 Error: Fatal Error (1): Call to a member function success() on boolean in [/Applications/MAMP/htdocs/cake3/bookmarker/src/Controller/UsersController.php, line 79]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 192
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 91
+[main] - [internal], line ??
+
+
+
+2016-02-19 13:59:18 Error: [Cake\Error\FatalErrorException] Call to a member function success() on boolean
+Request URL: /cake3/bookmarker/users/edit/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cake3/bookmarker/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(91): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', '/Applications/M...', 79)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-02-21 10:49:08 Error: [Cake\View\Exception\MissingElementException] Builder.Element/construction/default-layout-css.ctp
+Request URL: /cake3/bookmarker/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cake3/bookmarker/src/Template/Layout/default.ctp(24): Cake\View\View->element('Builder.constru...')
+#1 /Applications/MAMP/htdocs/cake3/bookmarker/vendor/cakephp/cakephp/src/View/View.php(828): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/cake3/bookmarker/vendor/cakephp/cakephp/src/View/View.php(788): Cake\View\View->_evaluate('/Applications/M...', Array)
+#3 /Applications/MAMP/htdocs/cake3/bookmarker/vendor/cakephp/cakephp/src/View/View.php(510): Cake\View\View->_render('/Applications/M...')
+#4 /Applications/MAMP/htdocs/cake3/bookmarker/vendor/cakephp/cakephp/src/View/View.php(473): Cake\View\View->renderLayout('', 'default')
+#5 /Applications/MAMP/htdocs/cake3/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php(582): Cake\View\View->render('home', NULL)
+#6 /Applications/MAMP/htdocs/cake3/bookmarker/src/Controller/PagesController.php(57): Cake\Controller\Controller->render('home')
+#7 [internal function]: App\Controller\PagesController->display('home')
+#8 /Applications/MAMP/htdocs/cake3/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php(411): call_user_func_array(Array, Array)
+#9 /Applications/MAMP/htdocs/cake3/bookmarker/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#10 /Applications/MAMP/htdocs/cake3/bookmarker/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#11 /Applications/MAMP/htdocs/cake3/bookmarker/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#12 {main}
+
+
+2016-02-21 10:50:00 Error: [Cake\View\Exception\MissingElementException] Builder.Element/construction.default-layout-css.ctp
+Request URL: /cake3/bookmarker/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cake3/bookmarker/src/Template/Layout/default.ctp(24): Cake\View\View->element('Builder.constru...')
+#1 /Applications/MAMP/htdocs/cake3/bookmarker/vendor/cakephp/cakephp/src/View/View.php(828): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/cake3/bookmarker/vendor/cakephp/cakephp/src/View/View.php(788): Cake\View\View->_evaluate('/Applications/M...', Array)
+#3 /Applications/MAMP/htdocs/cake3/bookmarker/vendor/cakephp/cakephp/src/View/View.php(510): Cake\View\View->_render('/Applications/M...')
+#4 /Applications/MAMP/htdocs/cake3/bookmarker/vendor/cakephp/cakephp/src/View/View.php(473): Cake\View\View->renderLayout('', 'default')
+#5 /Applications/MAMP/htdocs/cake3/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php(582): Cake\View\View->render('home', NULL)
+#6 /Applications/MAMP/htdocs/cake3/bookmarker/src/Controller/PagesController.php(57): Cake\Controller\Controller->render('home')
+#7 [internal function]: App\Controller\PagesController->display('home')
+#8 /Applications/MAMP/htdocs/cake3/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php(411): call_user_func_array(Array, Array)
+#9 /Applications/MAMP/htdocs/cake3/bookmarker/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#10 /Applications/MAMP/htdocs/cake3/bookmarker/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#11 /Applications/MAMP/htdocs/cake3/bookmarker/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#12 {main}
+
+
+2016-02-21 10:53:24 Error: [Cake\View\Exception\MissingElementException] Builder.Element/constructor.default-layout-css.ctp
+Request URL: /cake3/bookmarker/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cake3/bookmarker/src/Template/Layout/default.ctp(24): Cake\View\View->element('Builder.constru...')
+#1 /Applications/MAMP/htdocs/cake3/bookmarker/vendor/cakephp/cakephp/src/View/View.php(828): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/cake3/bookmarker/vendor/cakephp/cakephp/src/View/View.php(788): Cake\View\View->_evaluate('/Applications/M...', Array)
+#3 /Applications/MAMP/htdocs/cake3/bookmarker/vendor/cakephp/cakephp/src/View/View.php(510): Cake\View\View->_render('/Applications/M...')
+#4 /Applications/MAMP/htdocs/cake3/bookmarker/vendor/cakephp/cakephp/src/View/View.php(473): Cake\View\View->renderLayout('', 'default')
+#5 /Applications/MAMP/htdocs/cake3/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php(582): Cake\View\View->render('home', NULL)
+#6 /Applications/MAMP/htdocs/cake3/bookmarker/src/Controller/PagesController.php(57): Cake\Controller\Controller->render('home')
+#7 [internal function]: App\Controller\PagesController->display('home')
+#8 /Applications/MAMP/htdocs/cake3/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php(411): call_user_func_array(Array, Array)
+#9 /Applications/MAMP/htdocs/cake3/bookmarker/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#10 /Applications/MAMP/htdocs/cake3/bookmarker/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#11 /Applications/MAMP/htdocs/cake3/bookmarker/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#12 {main}
+
+
+2016-02-21 10:54:37 Error: [Cake\View\Exception\MissingElementException] Builder.Element/constructor/default-index.ctp
+Request URL: /cake3/bookmarker/users
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cake3/bookmarker/src/Template/Users/index.ctp(1): Cake\View\View->element('Builder.constru...')
+#1 /Applications/MAMP/htdocs/cake3/bookmarker/vendor/cakephp/cakephp/src/View/View.php(828): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/cake3/bookmarker/vendor/cakephp/cakephp/src/View/View.php(788): Cake\View\View->_evaluate('/Applications/M...', Array)
+#3 /Applications/MAMP/htdocs/cake3/bookmarker/vendor/cakephp/cakephp/src/View/View.php(465): Cake\View\View->_render('/Applications/M...')
+#4 /Applications/MAMP/htdocs/cake3/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php(582): Cake\View\View->render(NULL, NULL)
+#5 /Applications/MAMP/htdocs/cake3/bookmarker/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#6 /Applications/MAMP/htdocs/cake3/bookmarker/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#7 /Applications/MAMP/htdocs/cake3/bookmarker/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
